@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "hidecommands",
+  "version": "1.0.0",
+  "name": "Hide Commands",
+  "description": "Versteckt unerwünschte Mod-Commands aus den Command-Suggestions",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/hidecommands/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.hidecommands.HideCommandsMod"
+    ]
+  },
+  "mixins": [
+    "hidecommands.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,55 @@
+# 🚀 ALLE DATEIEN HOCHLADEN - ANLEITUNG
+
+## ⚠️ WICHTIG: Alle Dateien inklusive .github Ordner sind hier drin!
+
+## 📤 SO LÄDST DU ALLES HOCH:
+
+### Windows:
+1. Öffne diesen Ordner im **Explorer**
+2. Drücke **STRG + A** (alles markieren)
+3. Gehe zu deinem GitHub Repository
+4. Klicke **"Add file"** → **"Upload files"**
+5. Ziehe **ALLE markierten Dateien** ins Browser-Fenster
+6. Warte bis alle hochgeladen sind
+7. Klicke **"Commit changes"**
+
+### Mac:
+1. Öffne diesen Ordner im **Finder**
+2. Drücke **CMD + A** (alles markieren)
+3. Gehe zu deinem GitHub Repository
+4. Klicke **"Add file"** → **"Upload files"**
+5. Ziehe **ALLE markierten Dateien** ins Browser-Fenster
+6. Warte bis alle hochgeladen sind
+7. Klicke **"Commit changes"**
+
+## ✅ Was passiert dann?
+
+Nach dem Hochladen:
+1. Gehe zu **"Actions"**
+2. Der Build startet **automatisch**! 🎉
+3. Nach 2-3 Minuten ist die JAR fertig
+4. Download unter **"Artifacts"** → **"hidecommands-mod"**
+
+## 📂 Was ist im Ordner?
+
+✅ Alle Java-Dateien (src/)
+✅ Alle Build-Dateien (build.gradle, gradle/, etc.)
+✅ **`.github/workflows/build.yml`** ← WICHTIG für GitHub Actions!
+✅ README und Anleitungen
+
+## ⚠️ Häufiger Fehler
+
+**Fehler:** Du lädst den **Ordner** statt den **Inhalt** hoch
+
+**Richtig:** 
+- Gehe **IN** den Ordner rein
+- Markiere **ALLE Dateien** (STRG+A / CMD+A)
+- Lade diese hoch
+
+**Falsch:**
+- Den kompletten Ordner hochladen
+- Dann ist alles in einem Unterordner und funktioniert nicht!
+
+---
+
+🎮 **Viel Erfolg!**
